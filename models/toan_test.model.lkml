@@ -13,10 +13,10 @@ persist_with: toan_test_default_datagroup
 
 include: "/views/*"
 
-# explore: fct_orders {
-#   join: dim_customers {
-#     type: left_outer
-#     sql_on: ${fct_orders.customer_id} = ${dim_customers.customer_id} ;;
-#     relationship: many_to_one
-#   }
-# }
+explore: fct_orders {
+  join: dim_customers {
+    type: left_outer
+    sql_on: ${fct_orders.customer_id} = ${dim_customers.customer_id} ;;
+    relationship: many_to_one
+  }
+}
