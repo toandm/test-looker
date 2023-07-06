@@ -12,6 +12,7 @@ datagroup: toan_test_default_datagroup {
 persist_with: toan_test_default_datagroup
 
 include: "/views/*"
+include: "/*dashboard.lookml"
 
 explore: fct_orders {
   join: dim_customers {
