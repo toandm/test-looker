@@ -7,17 +7,6 @@
   filters:
 
   elements:
-    - name: hello_world
-      type: looker_column
-
-
-- dashboard: toan_test_dashboard
-  title: Toan Test Dashboard
-  layout: newspaper
-  preferred_viewer: dashboards-next
-  tile_size: 100
-
-  elements:
   - title: Toan test dashboard LookML
     name: Toan test dashboard LookML
     model: toan_test
