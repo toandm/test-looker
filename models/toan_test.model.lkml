@@ -15,6 +15,7 @@ include: "/views/*"
 include: "/*dashboard.lookml"
 
 explore: fct_orders {
+  hidden: yes
   join: dim_customers {
     type: left_outer
     sql_on: ${fct_orders.customer_id} = ${dim_customers.customer_id} ;;
